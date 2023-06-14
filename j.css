@@ -1,0 +1,43 @@
+* {
+    padding:0;
+    margin:0;
+    font-family: Raleway;
+    box-sizing: border-box;
+}
+
+.item {
+    border: 3px solid;
+    background-color: aquamarine;
+    padding: 12px 3px;
+    margin: 12px 3px;
+}
+
+.container {
+    border: 2px solid red;
+    background-color: rgb(0, 255, 42);
+    margin: auto;
+    width: 900px;
+}
+
+#fruits {
+    float: right;
+    width: 48%;
+}
+
+#computer {
+   float: right; 
+   width: 48%; 
+}
+
+#stationary {
+    /* float: left; */
+    clear: both;
+    width: 100%;
+}
+
+/* #glasses {
+    float: top;
+    width:99%;
+
+} */
+
